@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 50px;
+}
+.section-form{
+    width: 90%;
+    display: flex;
+    align-self: center;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px 8px #EFEFEF;
+}
+.section-form-divBlu{
+    width: 50%;
+    display: flex;
+    background-color: #6092EE;
+    border-radius: 10px 0px 0px 10px;
+    justify-content:space-around;
+    align-items: center;
+}
+
+/* ---- section-form-divForm--- */
+.section-form-divForm{
+    width: 50%;
+    flex-direction: column;
+    padding: 40px 0px;
+}
+.section-form-divForm h2{
+    margin: 20px;
+}
+.form-flex{
+    display: flex;
+    flex-direction: column;
+}
+.container-form{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    border-bottom: 1px solid black;
+}
+.container-form h3{
+    font-size: 15px;
+}
+
+.container-form input{
+    border: none;
+    outline: none;
+}
+.button-form{
+    color: white;
+    background-color: #4E86EC;
+    border: none;
+    padding: 6px 45px;
+    border-radius: 10px;
+    align-self: flex-end;
+    margin-right: 10px;
+}
+.h1Nelumbo{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+/* ---- tabla--- */
+.tabla , td ,tr{
+    border:solid 1px black;
+    padding: 10px;
+    margin: 20px;
+}
+.tablee{
+    margin-top: 20px;
+}
+.imgLapiz{
+    cursor: pointer;
+}
+.imgBasura{
+    cursor: pointer;
+    margin-right: 20px;
+}
